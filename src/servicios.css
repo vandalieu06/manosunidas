@@ -1,0 +1,30 @@
+.servicios{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.servicios__container{
+  width: 100%;
+  padding: 50px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.servicios__article{
+  width: 350px;
+}
+
+.servicios__img{
+  width: 100%;
+  border-radius: 5px;
+}
+.servicios__btn{
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #1F4172;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
