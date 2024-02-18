@@ -17,41 +17,71 @@
   padding: 40px 0;
 }
 
-/*LUGARES*/
-.places{
+/* SERVICIOS */
+
+.servicios { 
   width: 100%;
+  padding: 40px 0;
 }
-.places__container{
+.servicios__container {
   width: 100%;
-  padding: 40px 40px;
+  padding: 0 40px;
+}
+.servicios__content {
   display: flex;
-  align-items: center;
   flex-direction: column;
 }
-.places__header{
+.servicios__img {
   width: 100%;
-  padding-bottom: 30px;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  object-position: center;
+  margin-bottom: 10px;
 }
-.places__title{
-  font-size: 28px;
+.servicios__text {
+  font-size: 16px;
 }
-.places__content{
+.servicios__btn {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-.places__box{
-  width: 350px;
-}
-.places__img{
-  width: 100%;
+  align-items: center;
+  width: 140px;
+  margin-top: 10px;
+  padding: 10px 15px;
+  background-color: #1F4172;
+  color: white;
+  border: none;
   border-radius: 5px;
-  aspect-ratio: 3/2;
-  object-fit: cover;
-  object-position: center ;
 }
-.places__btn{
+
+
+/* UBICACIONES */
+.ubicaciones {
+  width: 100%;
+  padding: 40px 0;
+}
+.ubicaciones__container {
+  width: 100%;
+  padding: 0 40px;
+}
+.ubicaciones__content {
+  display: flex;
+  flex-direction: column;
+}
+.ubicaciones__img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  object-position: center;
+}
+.ubicaciones__text {
+  font-size: 16px;
+}
+.ubicaciones__btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
   margin-top: 10px;
   padding: 10px 15px;
   background-color: #1F4172;
