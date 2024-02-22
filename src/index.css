@@ -3,7 +3,7 @@
   width: 100%;
 }
 .main__portada{
-  height: 250px;
+  height: 300px;
   background: url(https://www.accem.es/wp-content/uploads/2017/06/vulnerables-refugiados.jpg) no-repeat scroll center center ;
   background-size: cover;
 }
@@ -16,12 +16,18 @@
 .main__article{
   padding: 40px 0;
 }
+.main__title{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 8px;
+}
 
 /* SERVICIOS */
 
 .servicios { 
   width: 100%;
   padding: 40px 0;
+  background-color: var(--bg);
 }
 .servicios__container {
   width: 100%;
@@ -38,6 +44,9 @@
   object-position: center;
   margin-bottom: 10px;
 }
+.servicios__title{
+  font-size: 30px;
+}
 .servicios__text {
   font-size: 16px;
 }
@@ -45,6 +54,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
   width: 140px;
   margin-top: 10px;
   padding: 10px 15px;
@@ -74,12 +84,16 @@
   object-fit: contain;
   object-position: center;
 }
+.ubicaciones__title{
+  font-size: 30px;
+}
 .ubicaciones__text {
   font-size: 16px;
 }
 .ubicaciones__btn {
   display: flex;
   justify-content: center;
+  text-decoration: none;
   align-items: center;
   width: 100px;
   margin-top: 10px;
