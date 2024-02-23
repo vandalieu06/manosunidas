@@ -40,12 +40,16 @@
   padding: 20px 40px;
 }
 .conocenos__content {
+  width: 100%;
 }
 .conocenos__box {
+  width: 100%;
 }
 .conocenos__title {
+  font-size: 26px;
 }
 .conocenos__text {
+  font-size: 16px;
 }
 .conocenos__img {
   width: 100%;
@@ -56,3 +60,43 @@
 }
 
 /*SEC 3*/
+
+.sobre-nosaltres {
+  width: 100%;
+  padding: 20px 40px 80px 40px;
+}
+.sobre-nosaltres__container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.sobre-nosaltres__box {
+  width: 100%;
+  border-radius: 10px;
+  padding: 25px 20px;
+  background-color: var(--bg);
+}
+.sobre-nosaltres__box--header {
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+}
+.sobre-nosaltres__box--title {
+  font-size: 22px;
+}
+.sobre-nosaltres__box--line {
+  width: 100%;
+  height: 2px;
+  background-color: var(--secundary);
+  border-radius: 10px;
+}
+.sobre-nosaltres__box--icon {
+  font-size: 30px;
+}
+.sobre-nosaltres__box--content {
+}
+.sobre-nosaltres__box--text {
+}
+.sobre-nosaltres__box--list{
+  padding-left: 30px;
+}
