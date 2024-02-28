@@ -12,7 +12,7 @@
   <script src="./src/main.js" defer></script>
 </head>
 <body>
-  <header class="header">
+  <header id="header" class="header">
     <div class="header__container">
       <div class="header__logo">
         <img class="header__img" src="./assets/img/logo.jpg" alt="Logo de prueba, puesto solo para testing.">
@@ -109,14 +109,16 @@
     <div class="footer__container">
       <article class="footer__article">
         <div class="footer__arrow">
-          <i class='bx bx-chevron-up footer__icon--arrow'></i>
+          <a href="#header" class="footer__icon--link">
+            <i class='bx bx-chevron-up footer__icon--arrow'></i>
+          </a>
         </div>
         <div class="footer__links">
-          <a class="footer__links--link" href="./" >Inici</a>
-          <a class="footer__links--link" href="./" >Serveis</a>
+          <a class="footer__links--link" href="./index.html" >Inici</a>
+          <a class="footer__links--link" href="./pages/serveis.html" >Serveis</a>
           <a class="footer__links--link" href="./" >Contacte</a>
-          <a class="footer__links--link" href="./" >Donaciones</a>
-          <a class="footer__links--link" href="./" >FAQ</a>
+          <a class="footer__links--link" href="./pages/ubicaciones.html" >Ubicacions</a>
+          <a class="footer__links--link" href="./pages/faq.html" >FAQ</a>
         </div>
       </article>
       <article class="footer__article">

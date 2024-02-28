@@ -18,7 +18,11 @@
   justify-content: center;
   padding-bottom: 30px;
 }
+.footer__icon--link{
+  text-decoration: none;
+}
 .footer__icon--arrow{
+  color: aliceblue;
   font-size: 55px;
 }
 .footer__links{
@@ -31,6 +35,10 @@
 .footer__links--link{
   color: white;
   text-decoration: none;
+  transition: color 200ms ease-in;
+}
+.footer__links--link:hover{
+  color: rgb(218, 206, 206);
 }
 .footer__icons{
   display: flex;
