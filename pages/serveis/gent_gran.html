@@ -3,19 +3,20 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SINTESI</title>
-  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="./src/main.css">
-  <link rel="stylesheet" href="./src/header.css">
-  <link rel="stylesheet" href="./src/index.css">
-  <link rel="stylesheet" href="./src/footer.css">
-  <script src="./src/main.js" defer></script>
+  <title>Sintesi - Serveis</title>
+  
+  <link rel="stylesheet" href="../../src/main.css">
+  <link rel="stylesheet" href="../../src/header.css">
+  <link rel="stylesheet" href="../../src/footer.css">
+  <link rel="stylesheet" href="../../src/gent_gran.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <script src="../../src/main.js" defer></script>
 </head>
 <body>
   <header class="header">
     <div class="header__container">
       <div class="header__logo">
-        <img class="header__img" src="./assets/img/logo.jpg" alt="Logo de prueba, puesto solo para testing.">
+        <img class="header__img" src="../../assets/img/logo.png" alt="Logo de prueba, puesto solo para testing.">
         <h3 class="header__title">Manos Unidas</h3>
       </div>
 
@@ -23,11 +24,11 @@
         <i class='bx bx-menu header__icon--menu'></i>
         
         <menu class="header__menu hide">
-          <li class="header__menu--li"><a class="header__menu--link" href="./" >Inici</a></li>
-          <li class="header__menu--li"><a class="header__menu--link" href="./pages/sobre-nosaltres.html" >Nosaltres</a></li>
-          <li class="header__menu--li"><a class="header__menu--link" href="./pages/serveis.html" >Serveis</a></li>
+          <li class="header__menu--li"><a class="header__menu--link" href="../../index.html" >Inici</a></li>
+          <li class="header__menu--li"><a class="header__menu--link" href="../sobre-nosaltres.html" >Nosaltres</a></li>
+          <li class="header__menu--li"><a class="header__menu--link" href="../serveis.html" >Serveis</a></li>
           <li class="header__menu--li"><a class="header__menu--link" href="./" >Contacte</a></li>
-          <li class="header__menu--li"><a class="header__menu--link" href="./pages/ubicaciones.html" >Ubicaciones</a></li>
+          <li class="header__menu--li"><a class="header__menu--link" href="../ubicaciones.html" >Ubicaciones</a></li>
           <li class="header__menu--li"><a class="header__menu--link" href="./" >FAQ</a></li>
           <li class="header__menu--li"><a class="header__menu--link" href="./" >Donacions</a></li>
         </menu>
@@ -35,11 +36,11 @@
     </div>
   </header>
 
-  <!-- SECCION 2 -->
+  <!-- PORTADA -->
   <section class="encabezado">
     <div class="encabezado__container">
       <h1 class="encabezado__title">
-        Vulnerables
+        GENT GRAN
       </h1>
       <div class="encabezado__line"></div>
       <p class="encabezado__text">
@@ -48,28 +49,53 @@
     </div>
   </section>
 
-  <!-- SERVICIOS -->
+  <!-- MAIN -->
+  
+  <main class="main">
+    <div class="main__container">
+          <article class="main__header">
+            <img class="main__img" src="../../assets/img/conocenos.jpg" alt="Imagen de un mapa de lugares">
+          </article>
 
-  <section class="servicios">
-    <div class="servicios__container">
-      <img class="servicios__img" src="./assets/img/conocenos.jpg" alt="Imagen de un mapa de lugares">
-      <article class="servicios__content">
-        <h2 class="servicios__title">
-          Coneix-nos
-        </h2>
-        <p class="servicios__text">
-          Som una organització sense ànim de lucre, apartidista i aconfessional que treballa per a millorar les condicions de vida de les persones en situació de vulnerabilitat. Defensem la igualtat de drets, deures i oportunitats per a totes les persones, amb independència del seu origen, gènere, origen nacional o ètnic, orientació i identitat sexual, religió, opinió o grup social.
-        </p>
-        <a class="servicios__btn" href="./pages/sobre-nosaltres.html">
-          Coneixer mes ...
-        </a>
-      </article>
-    </div>
-  </section>
+          <article class="main__content">
+            <h2 class="main__title">NECESSITATS</h2>
+            <h3 class="main__subtitle">Biologiques</h3>
+              <ul class="main__list">
+                <li class="main__text">Canvis nutricionals: les necessitats metabòliques ja no són les mateixes, i per tant l'alimentació ha de ser més específica</li>
+                <li class="main__text">Descans de qualitat i control de la salut, incloent-hi la presa de medicaments i la prevenció de malalties.</li>
+                <li class="main__text">Suport en les AVD</li>
+              </ul>
+            <h3 class="main__subtitle">Socials</h3>
+              <p class="main__text">Pertinença a un grup social i afectiu que les ofereix suport i companyia.</p>
+            <h3 class="main__subtitle">Psicològiques</h3>
+              <p class="main__text">Adaptación al cambio y desarrollo personal, manteniendo su autonomía y autoestima</p>
+          </article>
+        </div>
+  </main>
 
-  <!-- LUGARES -->
+  <!-- SERVEIS -->
 
-  <section class="ubicaciones">
+  <main class="serveis">
+    <div class="serveis__container">
+          <article class="serveis__header">
+            <img class="serveis__img" src="../../assets/img/conocenos.jpg" alt="Imagen de un mapa de lugares">
+          </article>
+
+          <article class="serveis__content">
+            <h2 class="serveis__title">SERVEIS</h2>
+              <ul class="serveis__list">
+                <p class="serveis__text">Atenció d'infermeria</p>
+                <p class="serveis__text">Supervisió les 24 hores</p>
+                <p class="serveis__text">Tres àpats al dia</p>
+                <p class="serveis__text">Ajuda amb les activitats quotidianes</p>
+                <p class="serveis__text">Serveis de rehabilitació</p>
+                <p class="serveis__text">Teràpia ocupacional i de la parla</p>
+              </ul>
+          </article>
+        </div>
+  </main>
+
+  <!-- <section class="ubicaciones">
     <div class="ubicaciones__container">
       <img class="ubicaciones__img" src="./assets/img/ubicaciones__inicio.png" alt="Imagen de un mapa de lugares">
       <article class="ubicaciones__content">
@@ -84,26 +110,7 @@
         </a>
       </article>
     </div>
-  </section>
-
-  <!-- TEAM SECTION -->
-
-  <div class="wrapper">
-    <h2 class="wrapper__title">Executive Team</h2>
-    <div class="wrapper__line"></div>
-    <div class="wrapper__members">
-        <div class="team-mem">
-          <img src="./assets/img/salud_mental.jpg" class="wrapper__img">
-          <h4 class="wrapper__name">Mrs. Emma</h4>
-          <p class="wrapper__text">Graphic Designer</p>
-        </div>
-        <div class="team-mem" >
-          <img src="./assets/img/salud_mental.jpg" class="wrapper__img">
-          <h4 class="wrapper__name">Mr. David</h4>
-          <p class="wrapper__text">Soft - Engineer</p>
-        </div>
-      </div>
-    </div> 
+  </section> -->
 
   <!-- FOOTER -->
   <footer class="footer">
@@ -138,5 +145,6 @@
       </article>
     </div>
   </footer>
+
 </body>
 </html>

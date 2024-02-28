@@ -1,8 +1,8 @@
-/*MAIN*/
+/*portada*/
 .encabezado {
   width: 100%;
   height: 500px;
-  background: linear-gradient(rgba(0 0 0 / .2), rgba(0 0 0 / .2)), url(../assets/img/diversidad_intelectual.jpg) center no-repeat;
+  background: linear-gradient(rgba(0 0 0 / .3), rgba(0 0 0 / .3)), url(../assets/img/gent_gran.jpg) center no-repeat;
   background-size: cover;
 }
 .encabezado__container {
@@ -32,20 +32,21 @@
   color: var(--text);
 }
 
-/* SERVICIOS */
-.servicios { 
+/*MAIN*/
+
+.main { 
   width: 100%;
   padding: 50px 0;
 }
-.servicios__container {
+.main__container {
   width: 100%;
   padding: 0 40px;
 }
-.servicios__content {
+.main__content {
   display: flex;
   flex-direction: column;
 }
-.servicios__img {
+.main__img {
   width: 100%;
   aspect-ratio: 3/2;
   object-fit: contain;
@@ -53,106 +54,66 @@
   margin-bottom: 10px;
   border-radius: 5px;
 }
-.servicios__title{
+.main__title{
   font-size: 30px;
 }
-.servicios__text {
-  font-size: 16px;
-}
-.servicios__btn {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-decoration: none;
-  width: 160px;
+.main__subtitle{
+  font-size: 20px;
   margin-top: 10px;
-  padding: 10px 15px;
-  background-color: #1F4172;
-  color: white;
-  border: none;
-  border-radius: 5px;
+}
+.main__list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main__text {
+  font-size: 16px;
+  padding-left: 5px;
 }
 
+/*SERVEIS*/
 
-/* UBICACIONES */
-.ubicaciones {
+.serveis { 
   width: 100%;
-  padding: 40px 0;
+  padding: 50px 0;
   background-color: var(--bg);
 }
-.ubicaciones__container {
+.serveis__container {
   width: 100%;
   padding: 0 40px;
 }
-.ubicaciones__content {
+.serveis__content {
   display: flex;
   flex-direction: column;
 }
-.ubicaciones__img {
+.serveis__img {
   width: 100%;
   aspect-ratio: 3/2;
   object-fit: contain;
   object-position: center;
+  margin-bottom: 10px;
   border-radius: 5px;
-
 }
-.ubicaciones__title{
+.serveis__title{
   font-size: 30px;
 }
-.ubicaciones__text {
-  font-size: 16px;
-}
-.ubicaciones__btn {
-  display: flex;
-  justify-content: center;
-  text-decoration: none;
-  align-items: center;
-  width: 100px;
+.serveis__subtitle{
+  font-size: 20px;
   margin-top: 10px;
-  padding: 10px 15px;
-  background-color: #1F4172;
-  color: white;
-  border: none;
-  border-radius: 5px;
 }
-
-/*TEAM CARD*/
-.wrapper{
-  width: 350px;
-  padding: 60px 40px;
-  margin: 0 auto;
-}
-.wrapper__title{
-  text-align: center;
-  font-size: 30px;
-}
-.wrapper__line{
-  margin: 10px auto;
-  width: 60px;
-  height: 2px;
-  border-radius: 20px;
-  background-color: var(--tertiary);
-}
-.wrapper__members{
+.serveis__list{
+  list-style: none;
   display: flex;
-  justify-content: center;
-  grid-area: 10px;
+  flex-direction: column;
+  gap: 10px;
 }
-.wrapper__img{
-  width: 140px;
-  height: 140px;
-  border-radius: 50%;
-  margin: 10px;
-  object-fit: cover;
-  object-position: center;
-}
-.wrapper__name, .wrapper__text{
-  text-align: center;
+.serveis__text {
   font-size: 16px;
-  margin: 7px;
+  padding-left: 5px;
 }
 
-
+/*MEDIA QUIERIES*/
 @media screen and (min-width: 800px){
   .encabezado{
     display: flex;
@@ -174,11 +135,11 @@
   }
 
   /* UBICACiONES */
-  .servicios{
+  .main{
     display: flex;
     justify-content: center;
   }
-  .servicios__container {
+  .main__container {
     width: 1200px;
     padding: 40px;
     display: flex;
@@ -186,27 +147,28 @@
     align-items: center;
     gap: 30px;
   }
-  .servicios__img {
+  .main__img {
     width: 550px;
     margin-bottom: 0px;
   }
-
-  /*UBICACIONES*/
-  .ubicaciones{
+  /* UBICACiONES */
+  .serveis{
     display: flex;
     justify-content: center;
   }
-  .ubicaciones__container {
+  .serveis__container {
     width: 1200px;
     padding: 40px;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    gap: 30px;
   }
-  .ubicaciones__img {
+  .serveis__content{
+    width: 100%;
+  }
+  .serveis__img {
     width: 550px;
-    aspect-ratio: 3/2;
-    object-fit: contain;
-    object-position: center;
+    margin-bottom: 0px;
   }
 }
