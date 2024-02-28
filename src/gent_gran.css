@@ -103,14 +103,14 @@
   margin-top: 10px;
 }
 .serveis__list{
-  list-style: none;
+  list-style: url("../assets/img/arrow_right.svg") armenian;
   display: flex;
   flex-direction: column;
   gap: 10px;
+  padding-left: 40px;
 }
 .serveis__text {
   font-size: 16px;
-  padding-left: 5px;
 }
 
 /*MEDIA QUIERIES*/

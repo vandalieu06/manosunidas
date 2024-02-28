@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SINTESI</title>
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="../src/main.css">
+  <link rel="stylesheet" href="../src/header.css">
+  <link rel="stylesheet" href="../src/faq.css">
+  <link rel="stylesheet" href="../src/footer.css">
+  <script src="../src/main.js" defer></script>
+  <script src="../src/faq.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="header__container">
+      <div class="header__logo">
+        <img class="header__img" src="../assets/img/logo.jpg" alt="Logo de prueba, puesto solo para testing.">
+        <h3 class="header__title">Manos Unidas</h3>
+      </div>
+
+      <nav class="header__nav">
+        <i class='bx bx-menu header__icon--menu'></i>
+        
+        <menu class="header__menu hide">
+          <li class="header__menu--li"><a class="header__menu--link" href="../index.html" >Inici</a></li>
+          <li class="header__menu--li"><a class="header__menu--link" href="./pages/sobre-nosaltres.html" >Nosaltres</a></li>
+          <li class="header__menu--li"><a class="header__menu--link" href="./pages/serveis.html" >Serveis</a></li>
+          <li class="header__menu--li"><a class="header__menu--link" href="./" >Contacte</a></li>
+          <li class="header__menu--li"><a class="header__menu--link" href="./pages/ubicaciones.html" >Ubicaciones</a></li>
+          <li class="header__menu--li"><a class="header__menu--link" href="./" >FAQ</a></li>
+        </menu>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Encabezado -->
+  <section class="encabezado">
+    <div class="encabezado__container">
+      <h1 class="encabezado__title">
+        FAQ
+      </h1>
+      <div class="encabezado__line"></div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+
+  <div class="container">
+      <div class="accordion">
+        <div class="accordion-item">
+          <button id="accordion-button-1" aria-expanded="false">
+            <span class="accordion-title">Hi ha personal mèdic i disponible les 24 hores del dia?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              El centre ofereix un servei de sanitat médica les 24h els 365 dies de l’any 
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-2" aria-expanded="false">
+            <span class="accordion-title">Quin és l'horari de visites permès?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              De dilluns a divendres: 
+            </p>
+            <ul>
+              <li>10.00h a 14.00h</li>
+              <li>17.00h a 20.00h</li>
+            </ul>
+            <p>Dissabte i diumenge:</p>  
+              <ul>
+                <li>de 11.00h a 20.00h</li>
+              </ul>   
+
+          </div>
+        </div>
+        <!-- <div class="accordion-item">
+          <button id="accordion-button-3" aria-expanded="false">
+            <span class="accordion-title">Will we ever discover aliens?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut.
+              Ut tortor pretium viverra suspendisse potenti.
+            </p>
+          </div>
+        </div> -->
+        <div class="accordion-item">
+          <button id="accordion-button-4" aria-expanded="false">
+            <span class="accordion-title">
+              Com es manegen els assumptes relacionats amb la privadesa i la confidencialitat?
+            </span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Les residències manegen els assumptes relacionats amb la privadesa i la confidencialitat a través de polítiques
+              clares, entrenament del personal, obtenció de consentiment informat, seguretat de la informació, respecte per la 
+              privadesa personal i compliment de les lleis i regulacions pertinents.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-5" aria-expanded="false">
+            <span class="accordion-title">Puc portar els meus propis mobles i pertinences?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Els residents tenen la llibertat de portar alguns dels seus propis mobles i pertinences personals per ajudar 
+              a fer que l'espai es senti més com a casa, no obstant això, abans de portar algun objecte, s'hauria d’informar 
+              al personal de la residencia, perque tinguin constancia i mirin si es pot instalar en l'habitació de l’usuari.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-6" aria-expanded="false">
+            <span class="accordion-title">Quin tipus de menjars se serveixen i es poden fer adaptacions dietètiques?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              En totes les nostres residencies hi ha cuina on es prepara cada dia el menjar. Tenim un horari amb els 
+              menús de cada dia que contenen una alimentació variada. Es poden fer adaptacions dietètiques que s’hauràn 
+              de comunicar.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-7" aria-expanded="false">
+            <span class="accordion-title">Hi ha transport disponible per a cites mèdiques o altres necessitats?</span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              Sí, la nostra empresa disposa de furgonetes adaptades per qualsevol sortida.
+            </p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button id="accordion-button-8" aria-expanded="false">
+            <span class="accordion-title">​​Es permet la presència de mascotes a les instal·lacions? </span>
+            <span class="icon" aria-hidden="true"></span>
+          </button>
+          <div class="accordion-content">
+            <p>
+              No es permet la presència de mascotes dins de les instal·lacions però en cas de que l’usuari vulgui 
+              s’haurà de preguntar abans per organitzar aquella visita.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__container">
+      <article class="footer__article">
+        <div class="footer__arrow">
+          <i class='bx bx-chevron-up footer__icon--arrow'></i>
+        </div>
+        <div class="footer__links">
+          <a class="footer__links--link" href="./" >Inici</a>
+          <a class="footer__links--link" href="./" >Serveis</a>
+          <a class="footer__links--link" href="./" >Contacte</a>
+          <a class="footer__links--link" href="./" >Donaciones</a>
+          <a class="footer__links--link" href="./" >FAQ</a>
+        </div>
+      </article>
+      <article class="footer__article">
+        <div class="footer__icons">
+          <i class='bx bxl-instagram-alt footer__icons--icon'></i>
+          <i class='bx bxl-tiktok footer__icons--icon' ></i>
+          <i class='bx bxl-facebook-circle footer__icons--icon' ></i>
+          <i class='bx bxl-twitter footer__icons--icon' ></i>
+        </div>
+      </article>
+      <article class="footer__article">
+        <p class="footer__text">
+          Copyright © 2024 TermsFeed®.
+        </p>
+        <p class="footer__text">
+          All rights reserved
+        </p>
+      </article>
+    </div>
+  </footer>
+</body>
+</html>
