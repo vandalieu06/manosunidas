@@ -16,3 +16,6 @@
   --bg: #FDF0F0; 
   --text: #F6F5F5;
 }
+body{
+  overflow-x: hidden;
+}

@@ -1,0 +1,174 @@
+/*portada*/
+.encabezado {
+  width: 100%;
+  height: 500px;
+  background: linear-gradient(rgba(0 0 0 / .3), rgba(0 0 0 / .3)), url(../assets/img/salud_mental.jpg) center no-repeat;
+  background-size: cover;
+}
+.encabezado__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 40px;
+}
+.encabezado__title {
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 5px;
+  color: var(--text);
+}
+.encabezado__line {
+  width: 50px;
+  height: 2px;
+  background-color: var(--tertiary);
+}
+.encabezado__text {
+  font-size: 18px;
+  margin-top: 15px;
+  text-align: center;
+  color: var(--text);
+}
+
+/*MAIN*/
+
+.main { 
+  width: 100%;
+  padding: 50px 0;
+}
+.main__container {
+  width: 100%;
+  padding: 0 40px;
+}
+.main__content {
+  display: flex;
+  flex-direction: column;
+}
+.main__img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  object-position: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.main__title{
+  font-size: 30px;
+}
+.main__subtitle{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.main__list{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main__text {
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+/*SERVEIS*/
+
+.serveis { 
+  width: 100%;
+  padding: 50px 0;
+  background-color: var(--bg);
+}
+.serveis__container {
+  width: 100%;
+  padding: 0 40px;
+}
+.serveis__content {
+  display: flex;
+  flex-direction: column;
+}
+.serveis__img {
+  width: 100%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  object-position: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+.serveis__title{
+  font-size: 30px;
+}
+.serveis__subtitle{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.serveis__list{
+  list-style: url("../assets/img/arrow_right.svg") armenian;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-left: 40px;
+}
+.serveis__text {
+  font-size: 16px;
+}
+
+/*MEDIA QUIERIES*/
+@media screen and (min-width: 800px){
+  .encabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .encabezado__container {
+    width: 1200px;  
+  }
+  .encabezado__title {
+    font-size: 80px;
+  }
+  .encabezado__line {
+    width: 80px;
+    height: 3px;
+  }
+  .encabezado__text {
+    font-size: 22px;
+  }
+
+  /* UBICACiONES */
+  .main{
+    display: flex;
+    justify-content: center;
+  }
+  .main__container {
+    width: 1200px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+  }
+  .main__img {
+    width: 550px;
+    margin-bottom: 0px;
+  }
+  /* UBICACiONES */
+  .serveis{
+    display: flex;
+    justify-content: center;
+  }
+  .serveis__container {
+    width: 1200px;
+    padding: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 30px;
+  }
+  .serveis__content{
+    width: 100%;
+  }
+  .serveis__img {
+    width: 550px;
+    margin-bottom: 0px;
+  }
+}
